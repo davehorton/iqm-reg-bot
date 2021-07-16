@@ -1,0 +1,23 @@
+{
+  "name": "iqm-reg-bot",
+  "version": "1.0.0",
+  "description": "starter drachtio app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/promisify-redis": "^0.0.6",
+    "debug": "^4.3.2",
+    "drachtio-srf": "^4.4.51",
+    "pino": "^6.12.0",
+    "redis": "^3.1.2",
+    "short-uuid": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
